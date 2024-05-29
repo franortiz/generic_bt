@@ -5,8 +5,6 @@ from collections.abc import Mapping
 import logging
 from typing import Any
 
-from switchbot import Switchbot, SwitchbotDevice
-
 from homeassistant.components.bluetooth.passive_update_coordinator import PassiveBluetoothCoordinatorEntity
 from homeassistant.const import ATTR_CONNECTIONS
 from homeassistant.core import callback
